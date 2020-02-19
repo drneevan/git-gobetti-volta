@@ -5,7 +5,7 @@ public class Triangolo {
 	private int base;
 	private int altezza;
     
-    public Triangle(int b, int h) {
+    public Triangolo(int b, int h) {
         
         base = b;
         altezza = h;
@@ -14,7 +14,7 @@ public class Triangolo {
 
     public int area() {
     
-        return base * altezza;
+        return (base * altezza) / 2;
     
     }
 }

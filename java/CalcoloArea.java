@@ -18,7 +18,7 @@ public class CalcoloArea {
         altezza = s.nextInt();
         s.close();
  
-        Triangle myTriangle = new Triangle(base, altezza);
+        Triangolo myTriangle = new Triangolo(base, altezza);
       	System.out.println("L'area è " + myTriangle.area);
 	}
 }
